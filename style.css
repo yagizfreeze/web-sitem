@@ -1,16 +1,52 @@
+/* Genel sayfa ayarları */
 body {
-  background-color: #f2f2f2;
+  background-color: #000000; /* Siyah arka plan */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #401fff;
   text-align: center;
   padding: 50px;
 }
 
+/* Başlık stili */
 h1 {
-  color: #2c3e50;
+  color: #4400e4;
   font-size: 36px;
+  margin-bottom: 20px;
 }
 
+/* Paragraf stili */
 p {
-  font-size: 18px;
-  color: #555;
+  font-size: 20px;
+  margin-bottom: 30px;
 }
+
+/* Bağlantı rengi */
+a {
+  color: #b6003d;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* 🔥 Buton stili */
+.iletisim-btn {
+  background-color: #aa42ff; /* Açık sarı */
+  color: #49006bc0; /* Kırmızı yazı */
+  font-size: 18px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* 🔥 Hover (üzerine gelince) efekti */
+.iletisim-btn:hover {
+  background-color: #2d00ce; /* Daha koyu sarı */
+}
+
+
+
+
+
